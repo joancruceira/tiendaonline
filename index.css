@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    align-items: center; /* Alinea el logo y el menú en el mismo eje horizontal */
+    justify-content: space-between; /* Espacio entre logo y menú */
+    padding: 0px 0px;
+    background-color: #ffffff;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    margin-right: 20px; /* Espacio entre logo y menú */
+}
+
+/* Ajuste de navbar */
+.navbar {
+    height: auto; /* Asegura que la altura sea automática */
+    padding: 0; /* Elimina padding innecesario */
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px; /* Ajusta el padding */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, padding 0.2s ease;
+}
+
+.navbar-nav {
+    justify-content: center; /* Centra el contenido */
+}
+
+/* Estilo del ícono de login */
+.login-icon {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra el ícono */
+}
+
+/* Estilo de las columnas */
+[class*='col'] {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 0px solid #c41212; 
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: white;
+}
