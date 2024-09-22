@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.container-fluid{
+
+    padding: 0px;
+    margin: 0;
+
+}
+
 header {
     display: flex;
     align-items: center; /* Alinea el logo y el menú en el mismo eje horizontal */
     justify-content: space-between; /* Espacio entre logo y menú */
     padding: 0px 0px;
     background-color: #ffffff;
+    .roboto-thin {
+        font-family: "", system-ui;
+        font-weight: lighter;
+        font-style: normal;
+      }
 }
 
 /* Estilo del logo */
@@ -16,13 +30,16 @@ header {
 .navbar {
     height: auto; /* Asegura que la altura sea automática */
     padding: 0; /* Elimina padding innecesario */
+    
 }
 
 .navbar-nav .nav-link {
-    padding: 10px 15px; /* Ajusta el padding */
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, padding 0.2s ease;
+    padding: 8px 10px; /* Ajusta el padding */
+    font-size: 22px;
+    font-weight: normal;
+    flood-color: #c41212;
+    font-family: "Roboto", sans-serif;
+    transition: 0.8s ease, padding 0.5s ease;
 }
 
 .navbar-nav {
@@ -41,11 +58,66 @@ header {
 [class*='col'] {
     padding: 10px 15px;
     margin-bottom: 20px;
+    display: flex;
     background-color: #ffffff;
     border: 0px solid #c41212; 
     color: rgb(0, 0, 0);
 }
 
+a{
+    .roboto-thin {
+        font-family: "Roboto", system-ui;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+}
+
+
+
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(172, 169, 169, 0.171); /* Fondo gris oscuro semitransparente */
+    border-radius: 50%; /* Opcional: para que las flechas tengan un fondo circular */
+}
+
+#aside {
+    border-left: 1px solid #838282; 
+}
+
+#filas{
+    padding: 0;
+}
+
+ .row-footer{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #838282;
+    color: #ffffff;
+ }
+
+ .grid-container{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-rows: 4fr;
+    gap: 5rem;
+
+ }
+
+ @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        gap: 2rem;
+    }
 }
