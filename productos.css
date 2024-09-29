@@ -1,0 +1,16 @@
+.grid-container{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-rows: 4fr;
+    gap: 5rem;
+
+ }
+
+ @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        gap: 2rem;
+    }
+}
+

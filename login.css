@@ -1,0 +1,56 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    font-size: 20px; /* Tamaño de la fuente */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white; /* Color de los links en blanco */
+    text-decoration: none; /* Eliminar subrayado en los links */
+    transition: color 1s ease; /* Transición lenta de color */
+}
+
+a:hover {
+    color: yellow; /* Color de hover en amarillo */
+}
+
+/* Opcional: Si deseas personalizar otros elementos como el header o el navbar */
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.row{
+    background-color: black;
+}
+
+#ContainerA{
+    background-color: black;
+}
+
+#ContainerB{
+    background-color: black;
+    margin-bottom: 46px;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    transition: color 1s ease;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+
+#navbarNav{
+    background-color: black;
+}
+
+.col{
+    background-color: black;
+}

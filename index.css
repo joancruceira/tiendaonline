@@ -1,58 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-.container-fluid{
-
-    padding: 0px;
-    margin: 0;
-
-}
-
-header {
-    display: flex;
-    align-items: center; /* Alinea el logo y el menú en el mismo eje horizontal */
-    justify-content: space-between; /* Espacio entre logo y menú */
-    padding: 0px 0px;
-    background-color: #ffffff;
-    .roboto-thin {
-        font-family: "", system-ui;
-        font-weight: lighter;
-        font-style: normal;
-      }
-}
-
-/* Estilo del logo */
-.logo {
-    width: 100px; /* Ajusta el tamaño del logo */
-    margin-right: 20px; /* Espacio entre logo y menú */
-}
-
-/* Ajuste de navbar */
-.navbar {
-    height: auto; /* Asegura que la altura sea automática */
-    padding: 0; /* Elimina padding innecesario */
-    
-}
-
-.navbar-nav .nav-link {
-    padding: 8px 10px; /* Ajusta el padding */
-    font-size: 22px;
-    font-weight: normal;
-    flood-color: #c41212;
-    font-family: "Roboto", sans-serif;
-    transition: 0.8s ease, padding 0.5s ease;
-}
-
-.navbar-nav {
-    justify-content: center; /* Centra el contenido */
-}
-
-/* Estilo del ícono de login */
-.login-icon {
-    width: 30px;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centra el ícono */
-}
 
 /* Estilo de las columnas */
 [class*='col'] {
@@ -63,7 +10,7 @@ header {
     border: 0px solid #c41212; 
     color: rgb(0, 0, 0);
 }
-
+/* Fuente del elemento a */
 a{
     .roboto-thin {
         font-family: "Roboto", system-ui;
@@ -72,52 +19,142 @@ a{
       }
 
 }
-
-
-
+/* Formato del body */
 body {
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    z-index: 1;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(172, 169, 169, 0.171); /* Fondo gris oscuro semitransparente */
-    border-radius: 50%; /* Opcional: para que las flechas tengan un fondo circular */
-}
-
-#aside {
-    border-left: 1px solid #838282; 
-}
-
-#filas{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px; 
+    background-color: black; 
+    color: white;
+    margin: 0;
     padding: 0;
 }
 
+/* Footer */
  .row-footer{
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: #838282;
     color: #ffffff;
  }
+/* Estilo del nombre del usuario logueado */
+ .user-info {
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+}
 
- .grid-container{
-    margin: 2rem;
+.user-info i {
+    margin-right: 8px; 
+    color: blue; 
+}
+
+.menu {
+    position: absolute;
+    background-color: #070707;
+    border: 1px solid #868585;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    display: none; 
+    top: 80px; 
+    right: 1;  
+}
+/* Estilo menú usuario */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    color: #fcfcfc;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.menu li:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+/* Cards */
+
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-template-rows: 4fr;
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
 
- }
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    padding: 15px;
+    height: 100%; 
+}
 
- @media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-        gap: 2rem;
-    }
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto h3 {
+    font-size: 1.1rem;
+    margin: 10px;
+    color: #333;
+}
+
+.producto p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px;
+}
+
+.producto button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #3498db;
+}
+
+/* Carrito */
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+#carritoCantidad {
+    font-size: 0.9rem;
+    margin-left: 5px;
 }
