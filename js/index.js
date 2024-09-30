@@ -23,6 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('logoutOption').addEventListener('click', function() {
             localStorage.removeItem('nombreUsuario');
+            localStorage.removeItem('carrito');
             window.location.href = './login.html';
         });
 

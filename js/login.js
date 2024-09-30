@@ -19,3 +19,14 @@ document.getElementById('btnLogin').addEventListener('click', () => {
         window.location.href = './login.html';
     }
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+    let authLink = document.getElementById('AuthLink'); 
+
+    if (authLink) {
+        authLink.innerHTML = "Registrarse";
+        authLink.href = "signup.html";
+    } else {
+        console.log("No se encontró el elemento con ID 'AuthLink'");
+    }
+});
