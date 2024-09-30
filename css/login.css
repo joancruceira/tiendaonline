@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px; 
+    background-color: black; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 1s ease; 
+}
+
+a:hover {
+    color: yellow; 
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.row{
+    background-color: black;
+}
+
+#ContainerA{
+    background-color: black;
+}
+
+#ContainerB{
+    background-color: black;
+    margin-bottom: 46px;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    transition: color 1s ease;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+#navbarNav{
+    background-color: black;
+}
+
+.col{
+    background-color: black;
+}

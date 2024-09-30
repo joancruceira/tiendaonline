@@ -1,4 +1,4 @@
-/* Aricle - Aside */
+/* Article - Aside */
 .carousel-control-prev, .carousel-control-next {
     z-index: 1;
 }
@@ -9,8 +9,8 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(172, 169, 169, 0.171); /* Fondo gris oscuro semitransparente */
-    border-radius: 50%; /* Opcional: para que las flechas tengan un fondo circular */
+    background-color: rgba(172, 169, 169, 0.171); 
+    border-radius: 50%; 
 }
 
 #aside {

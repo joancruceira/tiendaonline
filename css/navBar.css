@@ -1,14 +1,12 @@
-/* Formato del body */
 body {
-    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
-    font-size: 20px; /* Tamaño de la fuente */
-    background-color: black; /* Fondo negro */
-    color: white; /* Texto blanco */
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px; 
+    background-color: black; 
+    color: white; 
     margin: 0;
     padding: 0;
 }
 
-/* Formato de los links */
 a {
     color: white; 
     text-decoration: none; 
@@ -19,13 +17,11 @@ a:hover {
     color: yellow; 
 }
 
-/* Fondo y padding del header */
 header {
     background-color: black;
     padding: 20px;
 }
 
-/* Intentando que todo quede fondo negro */
 .row{
     background-color: black;
 }
@@ -49,7 +45,6 @@ header {
     margin-bottom: 45px;
 }
 
-/* Formato del navBar */
 .nav-link {
     color: rgb(255, 255, 255);
     transition: color 1s ease;
@@ -59,7 +54,6 @@ header {
     color: yellow;
 }
 
-
 #navbarNav{
     background-color: black;
 }
@@ -68,21 +62,16 @@ header {
     background-color: black;
 }
 
-
-/* Hover del logo */
-
 .logo-container {
     position: relative;
     
 }
-
 
 .logo {
     width: 100%;
     
     transition: opacity 1.5s ease; 
 }
-
 
 .logo-hover {
     position: absolute;
@@ -93,7 +82,6 @@ header {
     opacity: 0;
     transition: opacity 1.5s ease; 
 }
-
 
 .logo-container:hover .logo {
     opacity: 0;

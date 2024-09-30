@@ -1,0 +1,77 @@
+.grid-Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    padding: 15px;
+    height: 100%;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto h3 {
+    font-size: 1.1rem;
+    margin: 10px;
+    color: #333;
+}
+
+.producto p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px;
+}
+
+/* Controles de cantidad */
+.cantidad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cantidad button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.cantidad button:hover {
+    background-color: #3498db;
+}
+
+.cantidad input {
+    width: 50px;
+    text-align: center;
+}
+
+.producto .btn-agregar {
+    margin-top: auto;
+    width: 100%;
+}

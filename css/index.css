@@ -49,7 +49,7 @@ body {
     margin-right: 8px; 
     color: blue; 
 }
-
+/* Estilo menú usuario */
 .menu {
     position: absolute;
     background-color: #070707;
@@ -63,7 +63,7 @@ body {
     top: 80px; 
     right: 1;  
 }
-/* Estilo menú usuario */
+
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -85,76 +85,5 @@ body {
     color: #000;
 }
 
-/* Cards */
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
 
-.producto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-    padding: 15px;
-    height: 100%; 
-}
-
-.producto:hover {
-    transform: scale(1.05);
-}
-
-.producto img {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #ddd;
-}
-
-.producto h3 {
-    font-size: 1.1rem;
-    margin: 10px;
-    color: #333;
-}
-
-.producto p {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #27ae60;
-    margin: 10px;
-}
-
-.producto button {
-    background-color: #2980b9;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: auto;
-    width: 100%;
-    border-top: 1px solid #ddd;
-    transition: background-color 0.3s;
-}
-
-.producto button:hover {
-    background-color: #3498db;
-}
-
-/* Carrito */
-.navbar-nav .nav-link {
-    margin-left: 20px;
-}
-
-#carritoCantidad {
-    font-size: 0.9rem;
-    margin-left: 5px;
-}
