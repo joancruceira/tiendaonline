@@ -16,6 +16,18 @@
    
 </head>
 <body>
+
+    <!-- Modal del carrito -->
+    <div id="carritoModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="cerrar" onclick="document.getElementById('carritoModal').style.display='none'">&times;</span>
+            <h2>Tus compras</h2>
+            <div id="carritoItems"></div>
+            <p id="carritoTotal">Total: $0</p>
+            <button id="finalizarCompra">Finalizar Compra</button> <!-- Botón actualizado -->
+        </div>
+    </div>
+
     <header>
         <div class="container" id="ContainerA">
             <div class="row align-items-center" id="ContainerA">
