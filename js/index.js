@@ -1,5 +1,4 @@
 /* Lógica para mostrar el nombre del usuario logueado, menu para cerrar sesión en la página */
-
 window.addEventListener('DOMContentLoaded', () => {
     let NombreUsuario = localStorage.getItem('nombreUsuario');
 
@@ -35,4 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Insertar carrito
+    insertarCarritoEnPagina();
 });

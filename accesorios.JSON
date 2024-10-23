@@ -1,0 +1,54 @@
+{
+    "category": "Accesorios",
+    "products": [
+      {
+        "id": 1,
+        "title": "Auriculares Bluetooth",
+        "brand": "Sony",
+        "price": 79.99,
+        "description": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración.",
+        "image": "./asset/auriculares.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Cargador Rápido USB-C",
+        "brand": "Anker",
+        "price": 29.99,
+        "description": "Cargador rápido de 30W con puerto USB-C para dispositivos móviles.",
+        "image": "./asset/cargador.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Teclado Mecánico RGB",
+        "brand": "Corsair",
+        "price": 119.99,
+        "description": "Teclado mecánico con retroiluminación RGB personalizable.",
+        "image": "./asset/teclado.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Ratón Gaming Inalámbrico",
+        "brand": "Logitech",
+        "price": 99.99,
+        "description": "Ratón inalámbrico con alta precisión y diseño ergonómico para gaming.",
+        "image": "./asset/mouse.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Base de Carga Inalámbrica",
+        "brand": "Belkin",
+        "price": 49.99,
+        "description": "Base de carga inalámbrica rápida compatible con dispositivos Qi.",
+        "image": "./asset/cargadorinalambrico.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Monitor 24 pulgadas Full HD",
+        "brand": "Dell",
+        "price": 199.99,
+        "description": "Monitor LED de 24 pulgadas con resolución Full HD y entradas HDMI.",
+        "image": "./asset/monitor.jpg"
+      }
+    ]
+  }
+  

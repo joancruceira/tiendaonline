@@ -1,0 +1,85 @@
+{
+  "category": "SmartPhones",
+  "products": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "price": 799.99,
+      "description": "Smartphone con pantalla de 6.2 pulgadas, cámara triple y procesador Exynos 2100.",
+      "image": "./asset/s21.jfif"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 13 Pro",
+      "brand": "Apple",
+      "price": 999.99,
+      "description": "Smartphone con pantalla de 6.1 pulgadas Super Retina XDR y chip A15 Bionic.",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 3,
+      "title": "Google Pixel 6",
+      "brand": "Google",
+      "price": 699.99,
+      "description": "Smartphone con cámara avanzada y el nuevo chip Google Tensor.",
+      "image": "./asset/googlepixel.jpg"
+    },
+    {
+      "id": 4,
+      "title": "OnePlus 9 Pro",
+      "brand": "OnePlus",
+      "price": 729.99,
+      "description": "Smartphone con pantalla AMOLED de 120 Hz y carga rápida de 65W.",
+      "image": "./asset/oneplus9.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi Mi 11",
+      "brand": "Xiaomi",
+      "price": 649.99,
+      "description": "Smartphone con pantalla AMOLED de 6.81 pulgadas y Snapdragon 888.",
+      "image": "./asset/11mi.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Sony Xperia 5 II",
+      "brand": "Sony",
+      "price": 849.99,
+      "description": "Smartphone con cámara de calidad profesional y pantalla de 120 Hz.",
+      "image": "./asset/xperia.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Oppo Find X3 Pro",
+      "brand": "Oppo",
+      "price": 1099.99,
+      "description": "Smartphone con pantalla AMOLED QHD+ de 6.7 pulgadas y carga inalámbrica.",
+      "image": "./asset/oppofind.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Realme GT 5G",
+      "brand": "Realme",
+      "price": 499.99,
+      "description": "Smartphone con Snapdragon 888 y pantalla AMOLED de 120 Hz.",
+      "image": "./asset/realme.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Asus ROG Phone 5",
+      "brand": "Asus",
+      "price": 999.99,
+      "description": "Smartphone gaming con pantalla AMOLED de 144 Hz y batería de 6000 mAh.",
+      "image": "./asset/asus.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Motorola Edge 20 Pro",
+      "brand": "Motorola",
+      "price": 699.99,
+      "description": "Smartphone con cámara de 108 MP y pantalla OLED de 144 Hz.",
+      "image": "./asset/edge.jpg"
+    }
+  ]
+}

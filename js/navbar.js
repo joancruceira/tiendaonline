@@ -1,8 +1,8 @@
 const paginas = [
     { titulo: "Home", url: "index.html" },
-    { titulo: "SmartPhone", url: "categoria1.html" },
-    { titulo: "Accesorios", url: "categoria2.html" },
-    { titulo: "Tecnología", url: "categoria3.html" }
+    { titulo: "SmartPhone", url: "categoria1.html?categoria=smartphones" },
+    { titulo: "Accesorios", url: "categoria2.html?categoria=accesorios" },
+    { titulo: "Tecnología", url: "categoria3.html?categoria=electronics" }
     
 ];
 
