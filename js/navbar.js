@@ -1,12 +1,13 @@
 const paginas = [
-    { titulo: "Home", url: "index.html" },
+    { titulo: "Home", url: "index.html?categoria=random" },
     { titulo: "SmartPhone", url: "categoria1.html?categoria=smartphones" },
     { titulo: "Accesorios", url: "categoria2.html?categoria=accesorios" },
-    { titulo: "Tecnología", url: "categoria3.html?categoria=electronics" }
+    { titulo: "Tecnología", url: "categoria3.html?categoria=electronics" },
+    
     
 ];
 
-function generarNavbar() {
+export function generarNavbar() {
     let navbar = document.querySelector('#navbarNav ul');
     navbar.innerHTML = ''; 
 
@@ -19,5 +20,5 @@ function generarNavbar() {
     });
 }
 
-window.addEventListener('DOMContentLoaded', generarNavbar);
+//window.addEventListener('DOMContentLoaded', generarNavbar);
 
