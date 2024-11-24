@@ -88,30 +88,3 @@ header {
     opacity: 1;
 }
 
-/* Barra de búsqueda */
-#containerBusqueda {
-    width: 100%; /* El contenedor ocupa el ancho completo */
-    display: flex;
-    justify-content: flex-end; /* Alinea todo a la derecha */
-}
-
-.search-bar {
-    max-width: 300px; /* Controla el ancho de la barra */
-}
-
-.search-input {
-    width: 100%; /* Ancho completo de la columna */
-    max-width: 150px; /* Limita el ancho de la caja de texto */
-    border-radius: 30px;
-    padding: 5px 15px;
-}
-
-.search-btn {
-    border-radius: 30px;
-    padding: 5px 15px;
-}
-
-#dflexx {
-    align-items: center;
-    justify-content: flex-end;
-}
